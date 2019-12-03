@@ -11,7 +11,7 @@ function wrd_rtrn($input){
   echo strrev(substr($input, 0, 4))."\n";
   }
   else {
-  echo "{$input}"."\n";
+  echo $input."\n";
   }
   }
 
